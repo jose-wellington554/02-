@@ -84,9 +84,8 @@ P{
     .left-container {
         display: block;
     }
-     h2{
-        font-weight: 500;
-        font-size: 30px;
+    h1{
+        font-size: 50px;
     }
     p{
         text-align: center;
@@ -97,13 +96,20 @@ P{
         margin: 0 auto;
        
     }
-    header{
-        margin-bottom: 50px;
+  
+}
+@media screen and (max-width:870px){
+  header{
+        margin-left: 10px;
+        margin-bottom: 10%;
+        font-size: 10px;
+    }
+ .link-header{
+          margin-right: 10px;
     }
 }
 
-
-@media screen and (max-width:870px) {
+@media screen and (max-width:730px) {
     main{
         display: block;
         margin: 0;
@@ -111,10 +117,6 @@ P{
         height: 100%;
         width: 100%;
         text-align: center;
-    }
-    div{
-        display: block;
-        margin: auto;
     }
     p{
         display: none;
@@ -124,21 +126,18 @@ P{
     }
     img{   
        max-width: 90%;
-       margin: 150px 28px auto
+       margin: 100px auto 28px
     }
     h1{
         font-weight: 900;
         font-size: 50px;
         width: 263px;
         height: 52px;
-        margin: 0 60px;   
+        margin: 20px auto;   
     }
-    h2{
-        font-weight: 500;
-        font-size: 30px;
-    }
+   
     .button-main{
-        margin: 17px auto;
+        margin:auto;
         display: block;
     }
 }
